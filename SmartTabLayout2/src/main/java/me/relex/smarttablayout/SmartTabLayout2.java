@@ -1,9 +1,10 @@
 package me.relex.smarttablayout;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SnapHelper;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.SnapHelper;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -18,7 +19,7 @@ import me.relex.recyclerpager.SnapPageScrollListener;
  * <p>
  * To use the component, simply add it to your view hierarchy. Then in your
  * {@link android.app.Activity} or {@link android.app.Fragment}, {@link
- * android.support.v4.app.Fragment} call
+ * Fragment} call
  * {@link #attachToRecyclerView(RecyclerView)} providing it the ViewPager this layout
  * is being used for.
  * <p>

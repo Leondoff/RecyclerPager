@@ -17,8 +17,10 @@
 package com.ogaclejapan.smarttablayout;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -30,7 +32,7 @@ import android.widget.LinearLayout;
  * <p>
  * To use the component, simply add it to your view hierarchy. Then in your
  * {@link android.app.Activity} or {@link android.app.Fragment}, {@link
- * android.support.v4.app.Fragment} call
+ * Fragment} call
  * {@link #setViewPager(ViewPager)} providing it the ViewPager this layout
  * is being used for.
  * <p>
